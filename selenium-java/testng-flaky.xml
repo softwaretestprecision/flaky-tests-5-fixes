@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Five Fixes - flaky versions (expected to fail)">
+  <test name="Flaky">
+    <groups><run><include name="flaky"/></run></groups>
+    <classes><class name="com.softwaretestprecision.flaky.FiveFixesTest"/></classes>
+  </test>
+</suite>

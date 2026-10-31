@@ -1,0 +1,18 @@
+{
+  "name": "flaky-tests-5-fixes-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Software Test Precision demo project",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "test:flaky": "SHOW_FLAKY=1 playwright test --retries=0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}

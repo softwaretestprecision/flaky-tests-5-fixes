@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+playwright/.auth/
+
+# Java / Maven output
+target/
+
+# Reports
+allure-results/
+allure-report/
+
+# Local secrets and env files (commit only *.example)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
